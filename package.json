@@ -1,0 +1,31 @@
+{
+  "name": "workforce",
+  "version": "1.0.0",
+  "description": "personal use",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Benjamin Ani",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.11.0",
+    "connect-multiparty": "^2.2.0",
+    "cors": "^2.8.4",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "mongoose": "^4.13.17",
+    "mongoose-timezone": "^1.1.0",
+    "morgan": "^1.9.1"
+  },
+  "engines": {
+    "node": "6.0.0"
+  },
+  "devDependencies": {}
+}
